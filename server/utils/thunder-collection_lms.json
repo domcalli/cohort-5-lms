@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "lms",
-    "dateExported": "2023-09-15T00:26:50.766Z",
+    "dateExported": "2023-09-19T16:28:12.298Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -10,11 +10,11 @@
             "colId": "63967186-9895-401e-a0d5-79b509205793",
             "containerId": "",
             "name": "register user",
-            "url": "localhost:8000/users/register",
+            "url": "localhost:8000/api/v1/users/register",
             "method": "POST",
             "sortNum": 10000,
             "created": "2023-09-13T22:45:13.642Z",
-            "modified": "2023-09-14T03:03:22.177Z",
+            "modified": "2023-09-19T15:16:19.727Z",
             "headers": [],
             "params": [],
             "body": {
@@ -29,11 +29,11 @@
             "colId": "63967186-9895-401e-a0d5-79b509205793",
             "containerId": "",
             "name": "login",
-            "url": "localhost:8000/users/login",
+            "url": "localhost:8000/api/v1/users/login",
             "method": "POST",
             "sortNum": 20000,
             "created": "2023-09-13T22:46:55.279Z",
-            "modified": "2023-09-14T15:40:26.144Z",
+            "modified": "2023-09-19T16:23:06.937Z",
             "headers": [],
             "params": [],
             "body": {
@@ -48,18 +48,13 @@
             "colId": "63967186-9895-401e-a0d5-79b509205793",
             "containerId": "",
             "name": "get all users",
-            "url": "localhost:8000/users/",
+            "url": "localhost:8000/api/v1/users/",
             "method": "GET",
             "sortNum": 22500,
             "created": "2023-09-14T03:16:11.181Z",
-            "modified": "2023-09-14T03:16:11.181Z",
+            "modified": "2023-09-19T16:24:34.957Z",
             "headers": [],
             "params": [],
-            "body": {
-                "type": "json",
-                "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"pw123\"\n}",
-                "form": []
-            },
             "tests": []
         },
         {
@@ -67,16 +62,16 @@
             "colId": "63967186-9895-401e-a0d5-79b509205793",
             "containerId": "",
             "name": "update user info",
-            "url": "localhost:8000/users/65035b055c86bb70e2d85f76",
+            "url": "localhost:8000/api/v1/users/650341c7bf936e70fd64077b",
             "method": "PUT",
             "sortNum": 25000,
             "created": "2023-09-14T03:15:46.433Z",
-            "modified": "2023-09-14T19:13:06.686Z",
+            "modified": "2023-09-19T16:25:51.967Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"pw1234\"\n}",
+                "raw": "{\n  \"username\": \"firefly42\",\n  \"password\": \"serenity\"\n}",
                 "form": []
             },
             "tests": []
@@ -86,16 +81,16 @@
             "colId": "63967186-9895-401e-a0d5-79b509205793",
             "containerId": "",
             "name": "delete a user",
-            "url": "localhost:8000/users/65035b055c86bb70e2d85f76",
+            "url": "localhost:8000/api/v1/users/650341c7bf936e70fd64077b",
             "method": "DELETE",
             "sortNum": 27500,
             "created": "2023-09-14T03:15:24.728Z",
-            "modified": "2023-09-14T19:13:25.757Z",
+            "modified": "2023-09-19T16:26:59.627Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"pw123\"\n}",
+                "raw": "{\n  \"username\": \"firefly42\",\n  \"password\": \"serenity\"\n}",
                 "form": []
             },
             "tests": []
@@ -105,11 +100,11 @@
             "colId": "63967186-9895-401e-a0d5-79b509205793",
             "containerId": "",
             "name": "get all courses",
-            "url": "localhost:8000/courses/",
+            "url": "localhost:8000/api/v1/courses/",
             "method": "GET",
             "sortNum": 30000,
             "created": "2023-09-13T22:52:13.856Z",
-            "modified": "2023-09-14T15:37:19.064Z",
+            "modified": "2023-09-19T16:27:12.217Z",
             "headers": [],
             "params": [],
             "tests": []
