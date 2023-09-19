@@ -27,24 +27,52 @@ mongoose
 
 const testUsers = [
   {
-    username: "firefly42",
-    password: "serenity",
+    username: "admin",
+    password: "adminpass",
   },
   {
-    username: "cryptoNinja",
-    password: "blockchain123",
+    username: "student",
+    password: "studentpass",
   },
   {
-    username: "musicMaestro",
-    password: "melodyMagic",
+    username: "LukeSkywalker",
+    password: "JediMaster123",
   },
   {
-    username: "gamerGalaxy",
-    password: "gameOn456",
+    username: "PrincessLeia",
+    password: "RebelAlliance!",
   },
   {
-    username: "artisticSoul",
-    password: "paintingColors",
+    username: "DarthVader",
+    password: "DarkSideRulez",
+  },
+  {
+    username: "HanSolo",
+    password: "MillenniumFalcon",
+  },
+  {
+    username: "Chewbacca",
+    password: "Wookiee123",
+  },
+  {
+    username: "ObiWanKenobi",
+    password: "TheForceIsWithMe",
+  },
+  {
+    username: "Yoda",
+    password: "DoOrDoNot!",
+  },
+  {
+    username: "R2D2",
+    password: "BeepBoop123",
+  },
+  {
+    username: "C3PO",
+    password: "ProtocolDroid",
+  },
+  {
+    username: "BobaFett",
+    password: "BountyHunter!",
   },
 ];
 

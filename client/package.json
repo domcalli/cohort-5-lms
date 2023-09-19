@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://cohort-5-lms.onrender.com/",
+  "proxy": "http://localhost:8000/api/v1/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -44,6 +44,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "daisyui": "^3.7.5"
+    "daisyui": "^3.7.5",
+    "tailwindcss": "^3.3.3"
   }
 }

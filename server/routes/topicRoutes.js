@@ -144,7 +144,7 @@ router.get("/", async (req, res) => {
  */
 
 // Route to GET one Topic from database
-router.get("/:topicId", async (req, res) => {
+router.get("/:courseId/:topicId", async (req, res) => {
   // TODO: Implement fetch specific topic logic
   try {
     const courses = await Course.find();
